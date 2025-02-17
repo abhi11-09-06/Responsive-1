@@ -37,9 +37,7 @@
   }
   
   /* Adjust image dimensions within boxes */
-  .img1,
-  .img2,
-  .img3 {
+  .img1,.img2,.img3 {
     height: 300px;
     width: 100%;
   }
