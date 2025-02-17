@@ -1,0 +1,46 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Adjust logo size for small screens */
+  .logo {
+    width: 3%;
+  }
+  
+  /* Hide navigation links on small screens */
+  .links {
+    display: none;
+  }
+  
+  /* Set button width for better touch interaction */
+  .button  {
+    width: 25%;
+  }
+  
+  /* Make button fill its container */
+  .button  button {
+    width: 100%;
+  }
+
+  /* Adjust car section height for mobile */
+  .cars {
+    height: 500px;
+  }
+  
+  /* Set dimensions for box container */
+  .boxes {
+    height: 1700px;
+    width: 100%;
+  }
+  
+  /* Define size for individual boxes */
+  .box {
+    height: 500px;
+    width: 90%;
+  }
+  
+  /* Adjust image dimensions within boxes */
+  .img1,
+  .img2,
+  .img3 {
+    height: 300px;
+    width: 100%;
+  }
+}

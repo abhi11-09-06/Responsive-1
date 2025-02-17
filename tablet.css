@@ -1,0 +1,44 @@
+@media (min-width: 481px) and (max-width:768px) {
+    /* Adjust logo size for medium screens */
+    .logo{
+        width: 5%;
+    }
+   
+    /* Hide button for medium screens */
+    .button {
+        display: none;  
+    }
+    
+    /* Adjust font size for links */
+    .links a{
+        font-size: 15px;
+    }
+    
+    /* Set car section height for medium screens */
+    .cars{
+        height: 600px;
+    }
+    
+    /* Define dimensions for box container */
+    .boxes{
+        height: 1250px;
+        width: 100%;
+    }
+    
+    /* Set size for individual boxes */
+    .box{
+        height: 500px;
+        width: 49%;
+    }
+    
+    /* Adjust width for a specific box */
+    #b1{
+        width: 55%;
+    }
+    
+    /* Set dimensions for images within boxes */
+    .img1, .img2, .img3{
+        height: 300px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    /* Reset default styles and set box-sizing for consistent sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Header styling */
+    .header {
+      height: 100px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background: linear-gradient(to right, #696969, #d3d3d3);
+      position: fixed;
+      top: 0;
+    }
+
+    /* Logo container */
+    .logo {
+      height: inherit;
+      width: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+
+    /* Navigation links container */
+    .links {
+      height: inherit;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    /* Hover effect for links */
+    a:hover{
+      color: #000000;
+    }
+    /* Individual link container */
+    .one {
+      height: inherit;
+      width: 10%;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Styling for navigation links */
+    a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      position: relative;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Button container */
+    .button {
+      height: inherit;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Button styling */
+    button {
+      background-color: #1a1a2e;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    /* Main content area */
+    .cars {
+      height: 800px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 50px;
+      color: #000000;
+      background-image: url(https://images.alphacoders.com/187/thumb-1920-187383.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Container for car images */
+    .boxes {
+      height: 700px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-evenly;
+      background: linear-gradient(to right, #696969, #d3d3d3);
+    }
+
+    /* Individual box for each car image */
+    .box {
+      height: 600px;
+      width: 30%;
+    }
+
+    /* Image placeholders */
+    .img1,
+    .img2,
+    .img3 {
+      height: 400px;
+      width: 100%;
+    }
+
+    /* Specific background for each image */
+    .img1 {
+      background-image: url(https://images5.alphacoders.com/481/thumb-1920-481485.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .img2 {
+      background-image: url(https://wallpapercat.com/w/full/a/b/6/4476-1920x1440-desktop-hd-bentley-background-image.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .img3 {
+      background-image: url(https://images6.alphacoders.com/481/thumb-1920-481479.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Decorative line under images */
+    .line {
+      height: 20px;
+      width: 100%;
+      background-color: rgb(75, 54, 54);
+      margin-top: 30px;
+    }
+    /* Hover effect for the line */
+    .line:hover {
+      background-color: wheat;
+    }
+  </style>
+  <!-- Including external stylesheets for different device sizes -->
+  <link rel="stylesheet" href="mobile.css" />
+  <link rel="stylesheet" href="tablet.css" />
+  <link rel="stylesheet" href="laptop.css" />
+</head>
+
+<body>
+  <!-- Header with navigation and logo -->
+  <div class="header">
+    <div class="menu">
+    </div>
+    <div class="logo">
+      <img src="https://www.bentleymotors.com/content/dam/bm/websites/bmcom/bentleymotors-com/logos/logo_3d_wings_dark.png/_jcr_content/renditions/original./logo_3d_wings_dark.png" alt="">
+    </div>
+    <div class="links">
+      <div class="one"><a href="">HOME</a></div>
+      <div class="one"><a href="">ABOUT</a></div>
+      <div class="one"><a href="">SHOP</a></div>
+      <div class="one"><a href="">CONTACT</a></div>
+    </div>
+    <div class="button "><button>BLOG</button></div>
+  </div>
+
+  <!-- Main content area with background image -->
+  <div class="cars"></div>
+
+  <!-- Container for car images -->
+  <div class="boxes">
+    <!-- Each box represents a car image with decorative lines -->
+    <div class="box">
+      <div class="img1"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="box">
+      <div class="img2"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="box" id="b1">
+      <div class="img3"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Center align the logo */
+    .logo{
+        justify-content: center;    
+    }
+    
+    /* Set dimensions for the container of boxes */
+    .boxes{
+        height: 1250px;
+        width: 100%;
+    }
+    
+    /* Define size for individual boxes */
+    .box{
+        height: 580px;
+        width: 48%;
+    }
+    
+    /* Set dimensions for images within boxes */
+    .img1, .img2, .img3{
+        height: 400px;
+        width: 100%;
+    }
+    
+    /* Adjust width for a specific box */
+    #b1{
+        width: 55%;
+    }
+}
